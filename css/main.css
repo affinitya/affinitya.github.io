@@ -2662,8 +2662,43 @@ textarea.form-control {
   text-align: center;
 }
 
+
+.social-icons {
+  margin-top: 30px;
+}
+
+
+.social-icons a {
+  display: inline-block;
+  width: 3.2em;
+  height: 3.2em;
+  padding: 0.8em;
+  border: 1px solid #7b9eee;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.5s ease;
+  transition: border 0.5s ease;
+}
+
+.social-icons a i {
+  font-size: 1.6em;
+  color: #7b9eee;
+  transition: color 0.5s ease;
+}
+
+.social-icons a:hover {
+  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+     -webkit-animation: glow 3s ease-in-out infinite alternate;
+  -moz-animation: glow 3s ease-in-out infinite alternate;
+}
+
+.social-icons a:hover i {
+  color: #fff;
+}
+
 .footer {
-  margin-top: 25px;
+
   display: flex;
   align-items: center;
   justify-content: center
@@ -5925,7 +5960,7 @@ textarea.form-control {
 
 .feature-area {
   color: #fff;
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .single-features {
@@ -5964,15 +5999,15 @@ textarea.form-control {
 
 .presentation-subtitle {
   font-size: 2.4em;
-  color: #5f86dd;
+  color: #7b9eee;
   font-weight: 700;
   max-width: 600px;
-  margin: 40px auto 0;
+  margin: 30px auto 0;
 }
 
 .presentation-body {
     font-size: 1.2em;
-   color: #5f86dd;
+   color: #7b9eee;
    font-weight: 400;
     max-width: 500px;
     margin: 20px auto 0;
@@ -6226,7 +6261,7 @@ textarea.form-control {
   color: #E3E3E3;
 }
 .footer .copyright {
-  color: #5f86dd;
+  color: #7b9eee;
   font-size: 0.8em;
   padding: 10px 15px;
   margin: 15px 0px;
