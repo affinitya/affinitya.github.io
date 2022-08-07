@@ -2251,7 +2251,13 @@ Content Area-1 L-11-1
 }
 
 .content-area-l-11-1 .content p {
-  font-size: 14px;
+  font-size: 16px;
+}
+
+@media (max-width: 767px) {
+  .content-area-l-11-1 .content p {
+    font-size: 14px;
+  }
 }
 
 .content-area-l-11-1 .content h2 {
