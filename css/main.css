@@ -2000,13 +2000,6 @@ li.sub-menu--item.nav-item-has-children i {
   margin-bottom: 20px;
 }
 
-
-@media (max-width: 768px) {
-  .hero-area-l11 .content h1 {
-    font-size: 32px;
-  }
-}
-
 .hero-area-l11 .content p {
   color: #4b6dba;
 }
