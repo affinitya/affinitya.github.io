@@ -2,110 +2,466 @@
 <html lang="en">
 
 <head>
-<head>
-
   <meta charset="UTF-8">
-  <title>Metascope is Coming Soon</title>
-
-  <meta name="robots" content="noindex">
-
-  <link rel="shortcut icon" type="image/x-icon" href="./image/favicon.ico">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,300,700">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-    <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Metascope, the one & only horoscope for the metaverse</title>
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./fonts/icon-font/css/style.css">
+  <link rel="stylesheet" href="./fonts/typography-font/typo.css">
+  <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="./plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="./plugins/slick/slick.min.css">
+  <!-- Vendor stylesheets  -->
   <link rel="stylesheet" href="./css/main.css">
   <!-- Custom stylesheet -->
 </head>
 
-<body>
-
-    <div class="wrapper">
-        <div class="page-header section-dark" style="background-image: url('./image/bg_teasing.png'); background-color: ;">
-
-          <div class="object-left">
-            <img src="./image/left.png" alt="">
+<body data-theme-mode-panel-active data-theme="light" style="font-family: 'Mazzard H';">
+  <div class="site-wrapper overflow-hidden position-relative">
+    <!-- Site Header -->
+    <!-- Preloader -->
+    <!-- <div id="loading">
+    <div class="preloader">
+     <img src="./image/preloader.gif" alt="preloader">
+   </div>
+   </div>    -->
+    <!--Site Header Area -->
+    <header class="site-header site-header--menu-left landing-11-menu site-header--absolute site-header--sticky">
+      <div class="container">
+        <nav class="navbar site-navbar">
+          <!-- Brand Logo-->
+          <div class="brand-logo">
+            <a href="#">
+              <img src="image/logo/logo-black.png" alt="" class="light-version-logo">
+            </a>
           </div>
-          <div class="object-left right">
-            <img src="./image/right.png" alt="">
+          <div class="menu-block-wrapper">
+            <div class="menu-overlay"></div>
+            <nav class="menu-block" id="append-menu-header">
+              <div class="mobile-menu-head">
+                <div class="go-back">
+                  <i class="fa fa-angle-left"></i>
+                </div>
+                <div class="current-menu-title"></div>
+                <div class="mobile-menu-close">&times;</div>
+              </div>
+              <ul class="site-menu-main">
+                <!--
+                <li class="nav-item nav-item-has-children">
+                  <a href="#" class="nav-link-item drop-trigger">Dropdowns <i class="fas fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu" id="submenu-9">
+                    <li class="sub-menu--item">
+                      <a href="#">Dropdown 01</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="#">Dropdown 02</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="#">Dropdown 03</a>
+                    </li>
+                    <li class="sub-menu--item">
+                      <a href="#">Dropdown 04</a>
+                    </li>
+                  </ul>
+                </li>-->
+                <li class="nav-item">
+                  <a href="#hero" class="nav-link-item">Welcome</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#content-1" class="nav-link-item">Metatypes</a>
+                </li>
+                <!--
+                <li class="nav-item">
+                  <a href="https://uxtheme.net/product-support/" class="nav-link-item">Rarity</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://uxtheme.net/product-support/" class="nav-link-item">Roadmap</a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://uxtheme.net/product-support/" class="nav-link-item">Team</a>
+                </li>
+              -->
+              </ul>
+            </nav>
+          </div>
+          <div class="header-btns header-btn-l11 ms-auto d-none d-xs-inline-flex align-items-center">
+            <ul class="site-menu-main">
+              <li class="nav-item"><a href="https://twitter.com/MetascopeNFT" class="nav-link-item"><i
+                                  class="fab fa-twitter"></i></a></li>
+              <li class="nav-item"><a href="https://discord.com/invite/ytspxc5H" class="nav-link-item"><i
+                                  class="fab fa-discord"></i></a></li>
+            </ul>
+          </div>
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <!-- Hero Area -->
+    <div class="hero-area-l11 position-relative z-index-1 overflow-hidden" id="hero">
+      <div class="container position-relative">
+        <div class="row position-relative justify-content-center">
+
+          <div class="ccol-lg-12 order-lg-1 order-1" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+            <div class="banner-l-11-content content">
+                <h1>Metascope, the one & only horoscope for the metaverse.</h1>
+                <p>
+                    Born in the world of <u>Web3.0</u>, built together with the <u>community</u>, data ownership <u>decentralised</u>.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-100 position-relative">
+        <div class="hero-shape-l11-0 w-100 order-lg-1 order-1 " data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+          <img src="image/l2/hero-main.png" alt="" class="hero-l11-main-image">
+        </div>
+      </div>
+    </div>
+
+    <!-- Content Area-1 -->
+    <div class="content-area-l-11-1" id="content-1">
+
+      <div class="container" style="max-width: 100% !important;">
+        <div class="row justify-content-lg-start justify-content-center">
+          <div class="col-3 order-0" data-aos="fade-right" data-aos-duration="800" data-aos-once="true" style="padding-left: 0 !important;">
+            <div class="content-img position-relative z-index-1">
+              <img src="image/l2/content-img1.png" alt="" class="w-100">
+            </div>
           </div>
 
-          <div class="filter"></div>
-
-          <div class="content-center">
-                    
-            <div class="container">
-                <div class="title-brand">
-                    <img src="./image/logo/logo.png" alt="" />
-                </div>
-
-                <div class="social-icons text-center">
-                    <a href="https://twitter.com/MetascopeNFT" target="_blank"><i class="fab fa-twitter"></i></a>
-                </div>
-
-                <h2 class="presentation-subtitle text-center">Metascope, the one & only horoscope for the metaverse.</h2>
-                <p class="presentation-body text-center">Born in the world of <grey>Web3.0</grey>, built together with the <grey>community</grey>, data ownership <grey>decentralised</grey>.</p>
-                <h1 class="presentation-title">Coming Soon</h1>
+          <div class="col-6 order-1" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div class="content">
+              <h2>Meta<light>Types</light></h2>
+                <p>
+                  &#128116; Chinese Zodiac is old<br/>
+                  &#9203; Astrology Horoscope is out<br/>
+                  &#128683; 16 personalities ain't for me
+                </p>
+                <p>introducing MetaTypes - same as the Astrology Sign for traditional zodiac, but way cooler, made for the metaverse. </p>
+                <p>Based on 32 MetaTypes, we have created 10,000 characters (Metascope NTFs) to allow everyone to express their individuality in metaverse!</p>
+              </p>
+              
             </div>
 
-            <div class="container">
-                <div class="row feature-area justify-content-center">
-                  <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="single-features single-border position-relative">
-                      <h4><img src="./image/movement.png"></img>Join The Movement</h4>
-                      <p><b>10,000</b> Metascope NFTs to allow everyone to express their individuality in the Web3.0 world when participating in creating a truly decentralized horoscope for the new generation.</p>
-                    </div>
+          </div>
+
+          <div class="col-3 order-2" data-aos="fade-left" data-aos-duration="800" data-aos-once="true" style="padding-right: 0 !important;">
+            <div class="content-img">
+              <img src="image/l2/content-img2.png" alt="" class="w-lg-auto w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Content Area-2 
+    <div class="content-area-l-11-2">
+      <div class="container">
+        <div class="row align-items-center justify-content-lg-between justify-content-center">
+          <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+            <div class="content section-heading-5">
+              <h2>
+                Completely Free for Everyone.
+              </h2>
+              <div class="d-flex content-l-11-3-card">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="27" viewBox="0 0 32 27">
+                  <g>
+                    <g>
+                      <g>
+                        <path class="mypath1" fill="none" stroke="#258aff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M25.528 25.615v0h5.47v0-5.911c0-.56-.341-1.062-.86-1.27l-5.118-2.05a1.367 1.367 0 0 1-.86-1.267v-1.2a5.445 5.445 0 0 0 2.735-4.711V6.471a5.47 5.47 0 0 0-8.205-4.738">
+                        </path>
+                      </g>
+                      <g>
+                        <path class="mypath1" fill="none" stroke="#258aff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="20" stroke-width="2" d="M19.367 19.846l-5.14-2.036a1.358 1.358 0 0 1-.864-1.257v-1.192a5.394 5.394 0 0 0 2.747-4.676V7.97c0-2.999-2.46-5.43-5.495-5.43-3.034 0-5.494 2.431-5.494 5.43v2.715a5.394 5.394 0 0 0 2.747 4.676v1.192c0 .555-.342 1.054-.864 1.26l-5.14 2.036c-.52.206-.863.703-.864 1.257v4.51h19.23v0-4.51c0-.555-.342-1.054-.863-1.26z">
+                        </path>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <div class="content-body">
+                  <h5>Easy setup process</h5>
+                  <p>Editing and customizing Essential Landing is easy and fast.</p>
+                </div>
+              </div>
+              <div class="d-flex content-l-11-3-card">
+                <img src="image/l2/settings.svg" alt="icon">
+                <div class="content-body">
+                  <h5>Built for real users</h5>
+                  <p>Editing and customizing Essential Landing is easy and fast.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-6 offset-xxl-2 col-xl-6 col-lg-5 col-md-9 order-lg-1 order-0" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+            <div class="content-img">
+              <img src="image/l2/content-img2.png" alt="" class="w-lg-auto w-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-area-l-11-3 position-relative">
+      <div class="container">
+        <div class="row align-items-center justify-content-center justify-content-lg-start">
+          <div class="col-xl-6 col-lg-6 col-md-8 order-lg-1 order-0" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+            <div class="content-img">
+              <img src="image/l2/content-img3.png" alt="" class="w-100">
+            </div>
+          </div>
+          <div class="offset-xl-1 col-xl-5 col-lg-6 col-md-9 order-lg-1 order-1" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+            <div class="content section-heading-5">
+              <h2>Completely Free for Everyone.</h2>
+              <p>Event is not like most tech conferences. We want our presentations to engage the audience, spark
+                discussion and inspire new ideas. </p>
+              <ul class="list-unstyled pl-0">
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check"></i>Unlimited design possibility
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check"></i>Completely responsive
+                </li>
+                <li class="d-flex align-items-center">
+                  <i class="fas fa-check"></i>Easy to customize
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-l-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-9 px-lg-12 col-md-12">
+            <div class="row justify-content-center">
+              <div class="col-lg-10 text-center">
+                <div class="section-heading-5">
+                  <h2>
+                    One Software, Every Solution
+                  </h2>
+                  <p>We designed and tested prototypes that helped identify pain points in the account
+                    creation process. Together, we shaped the new standard.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row feature-l-11-items justify-content-center">
+              <div class="col-md-6" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-pen-01"></i>
                   </div>
-                  <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="single-features single-border position-relative">
-                      <h4><img src="./image/roadsign.png"></img>Our Roadmap</h4>
-                      <p><b>Q2</b> - The Fantastic Beast NFT launch</p>
-                      <p><b>Q3</b> - Metascope NFT infilltrates the metaverse</p>
-                      <p><b>Q4</b> - Metascope 3D NFT + Metapaws NFT</p>
-                      <p><b>2023</b> - More to come!</p>
-                    </div>
+                  <div class="content-body">
+                    <h5>Easy to Use</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
                   </div>
-                  <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="single-features">
-                      <h4><img src="./image/peeps.png"></img>About Us</h4>
-                      <p>Powered by AffinityAnalyst AI engine, Metascope team uses proprietary engine derived from behavioral science and digital anthropology to identify and classify accurate signals across the metaverse, recreating the horoscope for metaverse - Metascope!</p>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-layers-3"></i>
+                  </div>
+                  <div class="content-body">
+                    <h5>300+ Blocks</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-office"></i>
+                  </div>
+                  <div class="content-body">
+                    <h5>100% Responsive</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-book-open-2"></i>
+                  </div>
+                  <div class="content-body">
+                    <h5>Rich Documentation</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-pen-01"></i>
+                  </div>
+                  <div class="content-body">
+                    <h5>50+ Ready Pages</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
+                <div class="d-flex ">
+                  <div class="icon-box">
+                    <i class="icon icon-settings-gear-64-2"></i>
+                  </div>
+                  <div class="content-body">
+                    <h5>Quick Setup</h5>
+                    <p>Whether it’s a small internal app or a new for millions of customers, our design and
+                      development teams.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-area-l-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-7 col-lg-9" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
+            <div class="section-heading-5 text-center">
+              <h2>
+                30,000+ Customers Trust Us
+              </h2>
+              <p>We designed and tested prototypes that helped
+                identify pain points in the account creation process. Together, we shaped the new standard.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+          <div class="col-xl-10 col-lg-12 col-md-10">
+            <div class="testimonial-slider-l-11 position-relative">
+              <div class="single-slide focus-reset">
+                <div class="testimonial-card">
+                  <p>
+                    <span class="d-inline-block quote-size-1">“</span> You made it so simple. My new site is
+                    so much faster
+                    and easier to work with than my old site. I just choose the page, make the change and
+                    click save. Thanks, guys!”
+                  </p>
+                  <div class="d-flex user-details align-items-center">
+                    <div class="customer-img">
+                      <img src="image/l2/client-img-2.png" alt="">
+                    </div>
+                    <div class="user-identity">
+                      <h5>Sallie Lawson</h5>
+                      <span>Founder of Crips</span>
                     </div>
                   </div>
                 </div>
               </div>
-
-              <!-- footer-bottom start -->
-
-
-               <div class="container">
-                    <div class="social-icons text-center">
-                        <a href="https://twitter.com/MetascopeNFT" target="_blank"><i class="fab fa-twitter"></i></a>
+              <div class="single-slide focus-reset">
+                <div class="testimonial-card">
+                  <p>
+                    <span class="d-inline-block quote-size-1">“</span> You made it so simple. My new site is
+                    so much faster
+                    and easier to work with than my old site. I just choose the page, make the change and
+                    click save. Thanks, guys!”
+                  </p>
+                  <div class="d-flex user-details  align-items-center">
+                    <div class="customer-img">
+                      <img src="image/l2/client-img-1.png" alt="">
                     </div>
-               </div>
-
-               <div class="container">
-                    <div class="footer">
-                        
-                        
-                        <div class="text-center">
-                             <p class="copyright">© Copyright 2022 Metascope all rights reserved</p>
-                        </div>
-                      </div>
+                    <div class="user-identity">
+                      <h5>Ella Brooks</h5>
+                      <span>Founder of Crips</span>
                     </div>
+                  </div>
                 </div>
-
+              </div>
+              <div class="single-slide focus-reset">
+                <div class="testimonial-card rounded">
+                  <p>
+                    <span class="d-inline-block quote-size-1">“</span> You made it so simple. My new site is
+                    so much faster
+                    and easier to work with than my old site. I just choose the page, make the change and
+                    click save. Thanks, guys!”
+                  </p>
+                  <div class="d-flex user-details  align-items-center">
+                    <div class="customer-img">
+                      <img src="image/l2/client-img-2.png" alt="">
+                    </div>
+                    <div class="user-identity">
+                      <h5>Sallie Lawson</h5>
+                      <span>Founder of Crips</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>-->
+    <!-- Footer Area -->
+    <footer class="footer-l-11 text-center text-md-start">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer-logo-l-11">
+              <a href="#"><img src="image/logo/logo-black.png" alt="logo"></a>
+            </div>
+          </div>
 
-        
-
-        <div class="moving-clouds" style="background-image: url('./image/clouds-1.png'); "></div>
-
+          <div class="col-md-3" style="margin-top: 30px;">
+            <div class="social-icons-l-11">
+              <ul class="pl-0 list-unstyled d-flex  justify-content-center justify-content-md-end align-items-end ">
+                <li class="d-flex flex-column justify-content-center"><a href="https://twitter.com/MetascopeNFT"><i
+                                    class="fab fa-twitter"></i></a></li>
+                <li class="d-flex flex-column justify-content-center"><a href="https://discord.com/invite/ytspxc5H"><i
+                                    class="fab fa-discord"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright-area-l-11">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <p>© Copyright 2022 Metascope all rights reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="js/vendor.min.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="./plugins/aos/aos.min.js"></script>
+  <script src="./plugins/slick/slick.min.js"></script>
+  <script src="./plugins/menu/menu.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
 </body>
 
 </html>
