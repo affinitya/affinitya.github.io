@@ -3203,14 +3203,14 @@ img.spin {
 @-webkit-keyframes glide-fade  {
    from {
       left:0px;
-      top:-20px;
+      top:-10px;
       opacity: 1;
    }
    
    to {
       left:0px;
-      top:20px;
-      opacity: 0.4;
+      top:30px;
+      opacity: 0.6;
    }
 
 }
