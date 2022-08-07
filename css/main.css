@@ -2112,8 +2112,8 @@ li.sub-menu--item.nav-item-has-children i {
 
 @media (max-width: 767px) {
   .hero-shape-l11-0 img {
-    width: 120%;
-    margin-left: -10%;
+    width: 140%;
+    margin-left: -20%;
   }
 }
 
@@ -2274,7 +2274,7 @@ Content Area-1 L-11-1
 
 @media (max-width: 767px) {
   .content-area-l-11-1 .content h2 {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 @media (min-width: 992px) {
@@ -2297,12 +2297,14 @@ Content Area-1 L-11-1
 
 @media (max-width: 767px) {
   .content-area-l-11-1 .left-img {
-    width: 150%;
-    margin-left: -50%;
+    margin-top: 20px;
+    width: 200%;
+    margin-left: -100%;
   }
     .content-area-l-11-1 .right-img {
-    width: 150%;
-    margin-right: -50%;
+    margin-top: 120px;
+    width: 200%;
+    margin-right: -100%;
   }
 }
 
