@@ -1993,7 +1993,7 @@ li.sub-menu--item.nav-item-has-children i {
 
 .hero-area-l11 .content h1 {
   font-family: 'Gothic A1', sans-serif;
-  font-size: 40px;
+  font-size: 42px;
   font-weight: 800;
   font-style: normal;
   letter-spacing: -1px;
@@ -2003,7 +2003,7 @@ li.sub-menu--item.nav-item-has-children i {
 
 @media (max-width: 768px) {
   .hero-area-l11 .content h1 {
-    font-size: 28px;
+    font-size: 32px;
   }
 }
 
@@ -2117,6 +2117,12 @@ li.sub-menu--item.nav-item-has-children i {
   -webkit-animation:glide-fade 4s ease-in-out alternate infinite !important;
 }
 
+@media (max-width: 767px) {
+  .hero-shape-l11-0 img {
+    width: 120%;
+    margin-left: -10%;
+  }
+}
 
 .hero-shape-l11-1 {
   position: absolute;
@@ -2184,7 +2190,7 @@ li.sub-menu--item.nav-item-has-children i {
 
 
 .banner-l-11-content {
-  font-size: 1.2em;
+  font-size: 1.4em;
   color: #4b6dba;
   font-weight: 400;
   max-width: 600px;
@@ -2194,8 +2200,8 @@ li.sub-menu--item.nav-item-has-children i {
 
 @media (max-width: 767px) {
   .banner-l-11-content  {
-    margin: 0 50px;
-    font-size: 1em;
+    margin: 0 30px;
+    font-size: 1.2em;
   }
 }
 
@@ -2269,7 +2275,7 @@ Content Area-1 L-11-1
   margin-bottom: 20px;
 }
 
-.content-area-l-11-1 .content h2 light {
+.content-area-l-11-1 .content light {
   color: #0fbcf6;
 }
 
@@ -2293,6 +2299,17 @@ Content Area-1 L-11-1
 @media (min-width: 1600px) {
   .content-area-l-11-1 .content {
     padding-right: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-area-l-11-1 .left-img {
+    width: 150%;
+    margin-left: -50%;
+  }
+    .content-area-l-11-1 .right-img {
+    width: 150%;
+    margin-right: -50%;
   }
 }
 
@@ -2794,7 +2811,7 @@ Content Area-1 L-11-2
 
 .social-icons-l-11 ul li a i {
   color: #4b6dba;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .copyright-area-l-11 {
@@ -3198,7 +3215,7 @@ img.spin {
    to {
       left:0px;
       top:20px;
-      opacity: 0.2;
+      opacity: 0.4;
    }
 
 }
